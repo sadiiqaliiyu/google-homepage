@@ -1,45 +1,54 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Google Homepage</title>
         <link type="text/css" rel="stylesheet" href="css/reset.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
+                    <li><a href="#"><span class="circle"><img src="images/photo.jpg"></span></a></li>
                     <li><a href="#"><img src="images/grid.png"></a></li>
-                    <li><a href="#"><img src="images/photo.jpg"></a></li>
+                    <li><a href="#">Images</a></li>
+                    <li><a href="#">Gmail</a></li>
                 </ul>
             </nav>
         </header>
+        <div class="clear"></div>
 
 
-        <div id="searchBar">
-            <img src="images/50th-anniversary-of-the-moon-landing-6524862532157440.4-vacta.gif">
-            <form action="#" method="GET">
-                <input type="text" name="" ><br>
-                <input type="button" name="" value="Google Search">
-                <input type="button" name="" value="I'm feeling lucky">
-            </form>
-            <span>Google offered in:</span>
-            <div id="extraLang">
-                <ul>
-                    <li><a href="#">Hausa</a></li>
-                    <li><a href="#">Igbo</a></li>
-                    <li><a href="#">Èdè Yorùbá</a></li>
-                    <li><a href="#">Nigeria Pidgin</a></li>
-                </ul>
+
+        <div id="searchBox">
+            <div class="container">
+                <div id="searchBarImage">
+                    <img src="images/googlelogo_color_272x92dp.png" width="272" height="92">
+                </div>
+
+                <div id="searchBar">
+                    <form action="#" method="GET">
+                        <input type="text" name="userInput" ><br>
+                        <input type="submit" name="search" value="Google Search">
+                        <input type="submit" name="randomSearch" value="I'm feeling lucky">
+                    </form>
+                    <p class="infoText"><span>Google offered in:</span>
+                            <a href="#">Hausa</a>
+                            <a href="#">Igbo</a>
+                            <a href="#">Èdè Yorùbá</a>
+                            <a href="#">Nigeria Pidgin</a>
+                    </p>
+                </div>
             </div>
         </div>
+            
 
 
 
         <footer>
             <div id="topFooter">
-                <p>Nigeria</p>
+                <p><a href="#">Nigeria</a></p>
             </div>
             <div id="bottomFooter">
                 <div class="leftNav">
@@ -52,9 +61,9 @@
                 </div>
                 <div class="rightNav">
                     <ul>
-                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Settings</a></li>
                         <li><a href="#">Terms</a></li>
-                        <li><a href="#">Setting</a></li>
+                        <li><a href="#">Privacy</a></li>
                     </ul>
                 </div>
             </div>
