@@ -82,7 +82,11 @@ input[type=text] {
 }
 
 input[type=text]:hover{
-    box-shadow:rgba(0,0,0,.54)
+    box-shadow:1px 1px 9px -3px #999;
+}
+
+input[type=text]:focus{
+    box-shadow:1px 1px 9px -3px #999;
 }
 
 input[type=submit]{
